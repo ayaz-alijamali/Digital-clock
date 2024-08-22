@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: "poppins", "sans-serif";
+}
+
+body {
+    min-height: 100vh;
+    background-color:rgb(245, 157, 157);
+}
+
+body, .time, .liftSide, .rihgtSide, .day, .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.day {
+    color: rgb(160, 233, 160);
+}
+
+
+.rihgtSide {
+    flex-direction: column;
+}
+
+.Digitalclock {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    width: 425px;
+    border-radius: 20px;
+    box-shadow: 00 5px 10px rgba(0, 0,  0, 0.5);
+
+}
+
+#hours {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+
+#dd, #ddmmyy {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+#ddmmyy {
+    color: cyan;
+}
+
+
+#dots {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#minutes {
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(242, 220, 187);
+}
+
+#seconds {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+}
+
+
+#ampm {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+}
+
+.rightBottom{
+    margin-left: 60px;
+    transform: translateY(-12px);
+}
